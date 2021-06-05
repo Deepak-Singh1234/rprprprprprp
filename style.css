@@ -1,15 +1,23 @@
-body {
-    background-color: linear-gradient( rgb(255, 0, 242) 0%, #BA0020FF 100% );
+canvas{
+    animation-name: hellobro;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
 }
-h1{
-   font-family: 'Kaushan Script', cursive; 
-   color: crimson;
+
+@keyframes hellobro{
+    from{box-shadow: 1px 1px 1000px red;}
+    to{box-shadow: 1px 1px 100px gold;}
 }
-h2{
-    font-family: 'Sacramento', cursive;
-    color: gold;
+
+body{
+    background-image: url("background.jpg");
 }
-p{
-    font-family: 'Bangers', cursive;
-    color: aqua;   
+.jpg{
+    width: 50% ;
+    height: 100%; 
+}
+
+.png{
+    width:5%;
+    height:5.5%;
 }
