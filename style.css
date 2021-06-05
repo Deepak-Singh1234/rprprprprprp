@@ -1,0 +1,15 @@
+body {
+    background-color: linear-gradient( rgb(255, 0, 242) 0%, #BA0020FF 100% );
+}
+h1{
+   font-family: 'Kaushan Script', cursive; 
+   color: crimson;
+}
+h2{
+    font-family: 'Sacramento', cursive;
+    color: gold;
+}
+p{
+    font-family: 'Bangers', cursive;
+    color: aqua;   
+}
